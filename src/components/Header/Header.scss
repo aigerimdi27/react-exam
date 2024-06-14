@@ -1,0 +1,25 @@
+.header {
+    height: 128px;
+    text-align: center;
+    text-transform: uppercase;
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-decoration: none;
+        color: #000;
+    }
+    &__link {
+        font-size: 15px;
+        & active {
+            color: aquamarine;
+        }
+    }
+    &__links {
+        margin-right: 20px;
+
+    }
+    &__menu {
+        margin-right: 30px;
+    }
+}

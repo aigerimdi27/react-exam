@@ -1,0 +1,12 @@
+.card {
+    width: 350px;
+    height: 558px;
+    border: 1px solid #000;
+    &__img {
+        width: 100%;
+        height: 478px;
+    }
+    &__desc-title {
+        font-size: 18px;
+    }
+}
